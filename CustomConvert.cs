@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace c_sharp_playground
+namespace Sandbox
 {
     public static class CustomConvert
     {

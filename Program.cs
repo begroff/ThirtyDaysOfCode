@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using c_sharp_playground.Graphs;
+using Sandbox.Graphs;
 
-namespace c_sharp_playground
+namespace Sandbox
 {
     class Program
     {

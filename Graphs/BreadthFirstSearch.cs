@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace c_sharp_playground.Graphs
+namespace Sandbox.Graphs
 {
     public class BreadthFirstSearch
     {

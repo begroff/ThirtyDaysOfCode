@@ -1,6 +1,6 @@
 using System;
 
-namespace c_sharp_playground
+namespace Sandbox
 {
     class Person
     {
