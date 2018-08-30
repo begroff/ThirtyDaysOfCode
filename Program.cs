@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using c_sharp_playground.Graphs;
 
 namespace c_sharp_playground
 {
@@ -13,6 +14,12 @@ namespace c_sharp_playground
             ReverseArray(arrayOfNumbers);
             ConvertToBinaryAndGetMaxConsecutiveOnes(number);
             ConvertBase10ToBinaryString(number);
+
+            DepthFirstSearch dfs = new DepthFirstSearch();
+            dfs.Run();
+
+            BreadthFirstSearch bfs = new BreadthFirstSearch();
+            bfs.Run();
         }
 
         /// <summary>
