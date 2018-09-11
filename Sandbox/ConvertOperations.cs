@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Sandbox
 {
-    public static class CustomConvert
+    public static class ConvertOperations
     {
 
         /// <summary>

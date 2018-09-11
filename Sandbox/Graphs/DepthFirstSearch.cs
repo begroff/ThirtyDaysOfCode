@@ -3,31 +3,28 @@ using System.Collections.Generic;
 
 namespace Sandbox.Graphs
 {
-    public class BreadthFirstSearch
+    public class DepthFirstSearch
     {
         public void Traverse(BinaryNode root)
         {
-            var queue = new Queue<BinaryNode>();
+            var stack = new Stack<BinaryNode>();
             BinaryNode thisNode = null;
-            //push the root onto the queue
-            queue.Enqueue(root);
-            while (queue.Count > 0)
+            // push the root onto the stack
+            stack.Push(root);
+            while (stack.Count > 0)
             {
-                //remove the next item from the queue
-                thisNode = queue.Dequeue();
-
-                //do whatever calc
+                thisNode = stack.Pop();
                 Console.WriteLine(thisNode.Value);
 
-                //add the children into the queue
-                if (thisNode.Left != null)
-                {
-                    queue.Enqueue(thisNode.Left);
-                }
-
+                // push right then left
                 if (thisNode.Right != null)
                 {
-                    queue.Enqueue(thisNode.Right);
+                    stack.Push(thisNode.Right);
+                }
+
+                if (thisNode.Left != null)
+                {
+                    stack.Push(thisNode.Left);
                 }
             }
         }

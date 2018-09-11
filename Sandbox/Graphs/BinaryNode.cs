@@ -5,7 +5,7 @@ namespace Sandbox.Graphs
     public class BinaryNode
     {
         public int Value { get; }
-        //child nodes
+        // child nodes
         public BinaryNode Left { get; set; }
         public BinaryNode Right { get; set; }
         public BinaryNode(int value)

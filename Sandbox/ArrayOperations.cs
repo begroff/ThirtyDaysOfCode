@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Sandbox
 {
-    public static class CustomArray
+    public static class ArrayOperations
     {
         /// <summary>
         /// Reverses an array or list.
@@ -23,24 +23,6 @@ namespace Sandbox
             }
 
             return arr;
-        }
-
-        /// <summary>
-        /// Prints the elements in an array or list.
-        /// </summary>
-        /// <param name="arr">The array or list.</param>
-        /// <typeparam name="T">The type of elements in the array or list (e.g. int, string, etc).</typeparam>
-        public static void Print<T>(IList<T> arr)
-        {
-            for (int i = 0; i < arr.Count; i++)
-            {
-                Console.Write(arr[i] + " ");
-
-                if (i == arr.Count - 1)
-                {
-                    Console.WriteLine();
-                }
-            }
         }
     }
 }
