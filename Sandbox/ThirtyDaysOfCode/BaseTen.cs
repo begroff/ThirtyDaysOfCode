@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Sandbox
+namespace Sandbox.ThirtyDaysOfCode
 {
-    public static class ConvertOperations
+    public static class BaseTen
     {
 
         /// <summary>
@@ -12,7 +12,7 @@ namespace Sandbox
         /// </summary>
         /// <param name="number">The integer to convert.</param>
         /// <returns>The binary representation of an integer as a string.</returns>
-        public static string Base10ToBinaryString(int number)
+        public static string ToBinaryString(int number)
         {
             string result = string.Empty;
 

@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox;
+using Sandbox.ThirtyDaysOfCode;
 
 namespace SandboxTests
 {
     [TestClass]
-    public class ArrayOperationsTests
+    public class ReverseArrayTests
     {
         [TestMethod]
         public void Array_IsReversed()
@@ -13,7 +13,7 @@ namespace SandboxTests
             int[] reversed = { 9, 8, 7, 4 };
             int[] expected = new int[4];
 
-            expected = (int[])ArrayOperations.Reverse(actual);
+            expected = (int[])ReverseArray.Reverse(actual);
 
             CollectionAssert.AreEqual(expected, reversed);
         }

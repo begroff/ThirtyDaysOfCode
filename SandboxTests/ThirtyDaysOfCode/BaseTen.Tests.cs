@@ -1,19 +1,19 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox;
+using Sandbox.ThirtyDaysOfCode;
 
 namespace SandboxTests
 {
     [TestClass]
-    public class ConvertOperationsTests
+    public class BaseTenTests
     {
         [TestMethod]
-        public void NumberToBinary_IsConverted()
+        public void BaseTenToBinary_IsConverted()
         {
             int number = 5422;
             string binaryExpected = "1010100101110";
             string binaryActual = "";
 
-            binaryActual = ConvertOperations.Base10ToBinaryString(number);
+            binaryActual = BaseTen.ToBinaryString(number);
 
             Assert.AreEqual(binaryExpected, binaryActual);
         }

@@ -2,9 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Sandbox
+namespace Sandbox.ThirtyDaysOfCode
 {
-    public static class ArrayOperations
+    public static class ReverseArray
     {
         /// <summary>
         /// Reverses an array or list.

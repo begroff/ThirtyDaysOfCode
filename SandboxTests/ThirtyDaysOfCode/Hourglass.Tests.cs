@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox;
+using Sandbox.ThirtyDaysOfCode;
 
 namespace SandboxTests
 {
@@ -10,10 +10,10 @@ namespace SandboxTests
         public void Hourglass_Test()
         {
             int actualLargestSum;
-            int expectedLargestSum = 19;
-            Hourglass testArray = new Hourglass();
+            int expectedLargestSum = -6;
+            Hourglass hourglassTest = new Hourglass();
 
-            actualLargestSum = testArray.calculateLargestHourglassSum();
+            actualLargestSum = hourglassTest.CalculateLargestHourglassSum();
 
             Assert.AreEqual(expectedLargestSum, actualLargestSum);
         }
