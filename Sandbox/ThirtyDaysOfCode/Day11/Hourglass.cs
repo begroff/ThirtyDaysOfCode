@@ -46,7 +46,7 @@ namespace Sandbox.ThirtyDaysOfCode
         {
             int[][] hourglassArray = new int[6][];
 
-            StreamReader file = new StreamReader("../../../../Sandbox/ThirtyDaysOfCode/hourglass.txt");
+            StreamReader file = new StreamReader("../../../../Sandbox/ThirtyDaysOfCode/Day11/hourglass.txt");
 
             for (int i = 0; i < 6; i++)
             {
