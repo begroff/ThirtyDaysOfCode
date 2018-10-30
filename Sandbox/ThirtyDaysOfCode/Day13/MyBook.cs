@@ -13,9 +13,7 @@ namespace Sandbox.ThirtyDaysOfCode
         }
 
         public override void display() {
-            Console.WriteLine($"Title: {this.title}");
-            Console.WriteLine($"Author: {this.author}");
-            Console.WriteLine($"Price: {this.price}");
+            Console.Write($"Title: {this.title} Author: {this.author} Price: {this.price}");
         }
     }
 }

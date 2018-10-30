@@ -17,7 +17,7 @@ namespace SandboxTests
                 string author = "Paulo Coelho";
                 int price = 248;
                 MyBook novel = new MyBook(title, author, price);
-                string expectedOutput = $"Title: {title}\nAuthor: {author}\nPrice: {price}\n";
+                string expectedOutput = $"Title: {title} Author: {author} Price: {price}";
 
                 Console.SetOut(writer);
                 novel.display();

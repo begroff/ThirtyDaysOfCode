@@ -32,7 +32,7 @@ namespace SandboxTests
                 letterGrade = newStudent.Calculate();
                 newStudent.printLetterGrade();
 
-                expectedOutput = $"Name: {lastName}, {firstName}\nID: {id}\nGrade: {letterGrade}";
+                expectedOutput = $"Name: {lastName}, {firstName} ID: {id} Grade: {letterGrade}";
 
                 Assert.AreEqual('E', letterGrade);
                 Assert.AreEqual(expectedOutput, sw.ToString());

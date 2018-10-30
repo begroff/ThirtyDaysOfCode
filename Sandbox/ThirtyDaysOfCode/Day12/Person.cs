@@ -21,7 +21,7 @@ namespace Sandbox.ThirtyDaysOfCode
 		}
 
 		public void printPerson(){
-			Console.WriteLine("Name: " + lastName + ", " + firstName + "\nID: " + id);
+			Console.Write("Name: " + lastName + ", " + firstName + " ID: " + id + " ");
 		}
 	}
 }
