@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day13
 {
     public abstract class Book
     {
         protected String title;
-        protected  String author;
+        protected String author;
 
-        public Book(String title,String author){
+        public Book(String title, String author)
+        {
             this.title = title;
             this.author = author;
         }

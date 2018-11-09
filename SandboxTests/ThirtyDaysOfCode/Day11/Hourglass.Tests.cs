@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day11;
 
-namespace SandboxTests
+namespace SandboxTests.ThirtyDaysOfCode.Day11
 {
     [TestClass]
     public class HourglassTests

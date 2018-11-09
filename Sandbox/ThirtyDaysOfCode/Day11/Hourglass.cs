@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day11
 {
     public class Hourglass
     {
@@ -15,9 +15,11 @@ namespace Sandbox.ThirtyDaysOfCode
             hourglassArray = CreateHourglassArray();
 
             // iterate each row
-            for(int i = 0; i < 4; i++) {
+            for (int i = 0; i < 4; i++)
+            {
                 // iterate each column
-                for (int j = 0; j < 4; j++) {
+                for (int j = 0; j < 4; j++)
+                {
                     // Top row
                     sum += hourglassArray[i][j];
                     sum += hourglassArray[i][j + 1];
@@ -31,7 +33,8 @@ namespace Sandbox.ThirtyDaysOfCode
                     sum += hourglassArray[i + 2][j + 1];
                     sum += hourglassArray[i + 2][j + 2];
 
-                    if (sum > highestSum) {
+                    if (sum > highestSum)
+                    {
                         highestSum = sum;
                     }
 

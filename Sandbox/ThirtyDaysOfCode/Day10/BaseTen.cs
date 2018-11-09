@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day10
 {
     public static class BaseTen
     {

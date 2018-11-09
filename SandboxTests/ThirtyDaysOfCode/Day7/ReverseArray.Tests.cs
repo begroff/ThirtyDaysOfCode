@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day7;
 
-namespace SandboxTests
+namespace SandboxTests.ThirtyDaysOfCode.Day7
 {
     [TestClass]
     public class ReverseArrayTests

@@ -1,9 +1,9 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day18;
 using System.Collections.Generic;
 
-namespace SandboxTests.ThirtyDaysOfCode
+namespace SandboxTests.ThirtyDaysOfCode.Day18
 {
     [TestClass]
     public class PallindromeTests

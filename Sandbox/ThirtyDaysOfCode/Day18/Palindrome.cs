@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day18
 {
     public class Palindrome
     {

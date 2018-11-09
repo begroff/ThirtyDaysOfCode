@@ -1,8 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day16;
 using System;
 
-namespace SandboxTests.ThirtyDaysOfCode
+namespace SandboxTests.ThirtyDaysOfCode.Day16
 {
     [TestClass]
     public class ConvertStringTests

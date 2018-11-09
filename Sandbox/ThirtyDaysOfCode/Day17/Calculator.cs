@@ -1,6 +1,6 @@
 using System;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day17
 {
     public static class Calculator
     {
@@ -8,7 +8,7 @@ namespace Sandbox.ThirtyDaysOfCode
         {
             int result = 0;
 
-            if (n < 0 || p < 0 )
+            if (n < 0 || p < 0)
             {
                 throw new Exception("n and p should be non-negative");
             }

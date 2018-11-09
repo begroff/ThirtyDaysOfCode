@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day12;
 using System.IO;
 using System;
 
-namespace SandboxTests
+namespace SandboxTests.ThirtyDaysOfCode.Day12
 {
     [TestClass]
     public class PersonStudentTests

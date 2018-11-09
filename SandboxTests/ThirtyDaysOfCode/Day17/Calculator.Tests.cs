@@ -1,9 +1,9 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day17;
 using System.Collections.Generic;
 
-namespace SandboxTests.ThirtyDaysOfCode
+namespace SandboxTests.ThirtyDaysOfCode.Day17
 {
     [TestClass]
     public class CalculatorTests

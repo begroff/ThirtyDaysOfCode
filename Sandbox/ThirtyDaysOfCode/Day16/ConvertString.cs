@@ -1,6 +1,6 @@
 using System;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day16
 {
     public static class ConvertString
     {

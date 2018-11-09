@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day14;
 using System.IO;
 using System;
 
-namespace SandboxTests
+namespace SandboxTests.ThirtyDaysOfCode.Day14
 {
     [TestClass]
     public class ScopeTests

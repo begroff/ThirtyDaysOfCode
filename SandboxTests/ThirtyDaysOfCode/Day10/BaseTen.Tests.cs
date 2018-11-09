@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Sandbox.ThirtyDaysOfCode;
+using Sandbox.ThirtyDaysOfCode.Day10;
 
-namespace SandboxTests
+namespace SandboxTests.ThirtyDaysOfCode.Day10
 {
     [TestClass]
     public class BaseTenTests

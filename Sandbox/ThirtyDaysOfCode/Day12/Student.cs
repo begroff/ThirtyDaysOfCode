@@ -1,6 +1,6 @@
 using System;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day12
 {
     public class Student : Person
     {
@@ -32,22 +32,28 @@ namespace Sandbox.ThirtyDaysOfCode
         public char GetLetterGrade(int average)
         {
             char letterGrade;
-            if (average >= 90) {
+            if (average >= 90)
+            {
                 letterGrade = 'O';
             }
-            else if (average >= 80) {
+            else if (average >= 80)
+            {
                 letterGrade = 'E';
             }
-            else if (average >= 70) {
+            else if (average >= 70)
+            {
                 letterGrade = 'A';
             }
-            else if (average >= 55) {
+            else if (average >= 55)
+            {
                 letterGrade = 'P';
             }
-            else if (average >= 40) {
+            else if (average >= 40)
+            {
                 letterGrade = 'D';
             }
-            else {
+            else
+            {
                 letterGrade = 'T';
             }
 

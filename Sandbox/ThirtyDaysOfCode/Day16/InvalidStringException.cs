@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Sandbox.ThirtyDaysOfCode
+namespace Sandbox.ThirtyDaysOfCode.Day16
 {
     public class InvalidStringException : Exception
     {
